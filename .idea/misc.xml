@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MAD/Fast-Mart/app/src/main/res/layout/activity_main.xml" value="0.25534132360604483" />
+        <entry key="..\:/MAD/Fast-Mart/app/src/main/res/layout/activity_product.xml" value="0.2552083333333333" />
+        <entry key="..\:/MAD/Fast-Mart/app/src/main/res/layout/fragment_login.xml" value="0.2552083333333333" />
+        <entry key="..\:/MAD/Fast-Mart/app/src/main/res/layout/slide_item_container.xml" value="0.1765625" />
         <entry key="..\:/Users/Thilina/Documents/git/Fast-Mart/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/Thilina/Documents/git/Fast-Mart/app/src/main/res/layout/fragment_login.xml" value="0.264" />
         <entry key="..\:/Users/Thilina/Documents/git/Fast-Mart/app/src/main/res/layout/fragment_login_screen.xml" value="0.25677083333333334" />
