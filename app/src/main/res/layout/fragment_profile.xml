@@ -76,17 +76,16 @@
             android:textAlignment="textStart"
             android:textColor="#000000"
             android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/lname_edit_text"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView3"
-            app:layout_constraintVertical_bias="0.065" />
+            app:layout_constraintTop_toBottomOf="@+id/box_three_text" />
 
         <TextView
             android:id="@+id/lname_edit_text"
             android:layout_width="331dp"
             android:layout_height="40dp"
-            android:layout_marginBottom="464dp"
             android:background="@drawable/box"
             android:elevation="5dp"
             android:paddingStart="10dp"
@@ -95,17 +94,16 @@
             android:textAlignment="textStart"
             android:textColor="#000000"
             android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/mob_number_edit_text"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView"
-            app:layout_constraintVertical_bias="0.065" />
+            app:layout_constraintTop_toBottomOf="@+id/fname_edit_text" />
 
         <TextView
             android:id="@+id/mob_number_edit_text"
             android:layout_width="331dp"
             android:layout_height="40dp"
-            android:layout_marginBottom="408dp"
             android:background="@drawable/box"
             android:elevation="5dp"
             android:paddingStart="10dp"
@@ -114,17 +112,16 @@
             android:textAlignment="textStart"
             android:textColor="#000000"
             android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/email_address_edit_text"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView"
-            app:layout_constraintVertical_bias="0.065" />
+            app:layout_constraintTop_toBottomOf="@+id/lname_edit_text" />
 
         <TextView
             android:id="@+id/email_address_edit_text"
             android:layout_width="331dp"
             android:layout_height="40dp"
-            android:layout_marginBottom="352dp"
             android:background="@drawable/box"
             android:elevation="5dp"
             android:paddingStart="10dp"
@@ -133,30 +130,11 @@
             android:textAlignment="textStart"
             android:textColor="#000000"
             android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/dark_mode_edit_text"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView"
-            app:layout_constraintVertical_bias="0.065" />
-
-        <TextView
-            android:id="@+id/pwd_edit_text"
-            android:layout_width="331dp"
-            android:layout_height="40dp"
-            android:layout_marginBottom="296dp"
-            android:background="@drawable/box"
-            android:elevation="5dp"
-            android:paddingStart="10dp"
-            android:paddingTop="5dp"
-            android:text="Password"
-            android:textAlignment="textStart"
-            android:textColor="#000000"
-            android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView"
-            app:layout_constraintVertical_bias="0.065" />
+            app:layout_constraintTop_toBottomOf="@+id/mob_number_edit_text" />
 
         <TextView
             android:id="@+id/theme_edit_text"
@@ -166,18 +144,17 @@
             android:textColor="#009F10"
             android:textSize="14sp"
             android:textStyle="bold"
+            android:layout_marginBottom="10dp"
             app:layout_constraintBottom_toTopOf="@+id/dark_mode_edit_text"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.13"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/pwd_edit_text"
             tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/dark_mode_edit_text"
             android:layout_width="331dp"
             android:layout_height="40dp"
-            android:layout_marginBottom="204dp"
             android:background="@drawable/box"
             android:elevation="5dp"
             android:paddingStart="10dp"
@@ -186,11 +163,11 @@
             android:textAlignment="textStart"
             android:textColor="#000000"
             android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/button_text"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView"
-            app:layout_constraintVertical_bias="0.065" />
+            app:layout_constraintTop_toBottomOf="@+id/email_address_edit_text" />
 
         <Button
             android:id="@+id/button_text"

@@ -13,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
+import androidx.navigation.Navigation
 import com.example.fastmart.databinding.FragmentHomeBinding
 import kotlin.concurrent.fixedRateTimer
 
@@ -28,6 +29,10 @@ class Fragment_home : Fragment() {
         val binding: FragmentHomeBinding = DataBindingUtil.inflate(
 
             inflater, R.layout.fragment_home, container,false
+        )
+
+        binding.profileIcon.setOnClickListener (
+            Navigation.createNavigateOnClickListener(R.id.action_fragment_home_to_profileFragment)
         )
 
         return binding.root

@@ -33,5 +33,14 @@
     <fragment
         android:id="@+id/fragment_home"
         android:name="com.example.fastmart.Fragment_home"
-        android:label="Fragment_home" />
+        android:label="Fragment_home" >
+        <action
+            android:id="@+id/action_fragment_home_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.fastmart.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
 </navigation>
