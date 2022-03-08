@@ -24,6 +24,9 @@ class LoginFragment : Fragment() {
         binding.toSignup.setOnClickListener (
                 Navigation.createNavigateOnClickListener(R.id.action_loginFragment2_to_fragmentSignup)
         )
+        binding.loginButton.setOnClickListener (
+            Navigation.createNavigateOnClickListener(R.id.action_loginFragment2_to_fragment_home)
+        )
         return binding.root
     }
 }
