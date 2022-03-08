@@ -30,7 +30,7 @@
                            android:layout_height="wrap_content"
                            android:background="@color/white"
                            android:src="@drawable/profile"
-                           />
+                           android:contentDescription="Profile" />
                    </androidx.cardview.widget.CardView>
 
                    <TextView
@@ -114,8 +114,7 @@
                                android:layout_gravity="left"
                                android:background="@color/white"
                                android:src="@drawable/friut"
-                               ></ImageView>
-
+                               />
 
                            <ImageView
                                android:layout_width="120dp"
@@ -191,7 +190,7 @@
                                android:layout_marginStart="10dp"
                                android:background="@color/white"
                                android:src="@drawable/friut"
-                               ></ImageView>
+                               />
 
 
                            <ImageView
@@ -265,7 +264,7 @@
                                android:layout_marginStart="10dp"
                                android:background="@color/white"
                                android:src="@drawable/friut"
-                               ></ImageView>
+                               />
 
 
                            <ImageView

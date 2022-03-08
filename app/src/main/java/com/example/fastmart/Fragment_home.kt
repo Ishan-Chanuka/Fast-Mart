@@ -38,8 +38,6 @@ class Fragment_home : Fragment() {
                     .addToBackStack(null).commit()
             }
         }
-        (activity as AppCompatActivity?)!!.supportActionBar!!.hide()
-
 
         return binding.root
     }
