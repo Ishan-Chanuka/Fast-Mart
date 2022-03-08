@@ -34,6 +34,10 @@ class Fragment_home : Fragment() {
         binding.profileIcon.setOnClickListener (
             Navigation.createNavigateOnClickListener(R.id.action_fragment_home_to_profileFragment)
         )
+        binding.shopingCartIcon.setOnClickListener (
+            Navigation.createNavigateOnClickListener(R.id.action_fragment_home_to_cartFragment)
+        )
+
 
         return binding.root
     }

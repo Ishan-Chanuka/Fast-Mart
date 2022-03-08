@@ -37,10 +37,18 @@
         <action
             android:id="@+id/action_fragment_home_to_profileFragment"
             app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_fragment_home_to_cartFragment"
+            app:destination="@id/cartFragment" />
     </fragment>
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.example.fastmart.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.fastmart.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
 </navigation>

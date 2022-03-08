@@ -5,4 +5,7 @@
         <item name="android:textColor">@color/green_500</item>
         <item name="android:textSize" >24sp</item>
     </style>
+    <style name="round">
+        <item name="cornerSize">30dp</item>
+    </style>
 </resources>
