@@ -8,9 +8,12 @@
         android:orientation="vertical">
         <fragment
             android:id="@+id/loginFragment"
-            android:name="com.example.fastmart.LoginFragment"
+            android:name="androidx.navigation.fragment.NavHostFragment"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            app:defaultNavHost="true"
+            app:navGraph="@navigation/naviigation"
+            />
     </LinearLayout>
 
 </layout>

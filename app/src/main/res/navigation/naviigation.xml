@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/naviigation"
+    app:startDestination="@id/loginFragment2">
+
+    <fragment
+        android:id="@+id/loginFragment2"
+        android:name="com.example.fastmart.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment2_to_fragmentSignup"
+            app:destination="@id/fragmentSignup"
+            app:popUpTo="@id/loginFragment2"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentSignup"
+        android:name="com.example.fastmart.FragmentSignup"
+        android:label="fragment_signup"
+        tools:layout="@layout/fragment_signup" >
+        <action
+            android:id="@+id/action_fragmentSignup_to_loginFragment2"
+            app:destination="@id/loginFragment2"
+            app:popUpTo="@id/fragmentSignup"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
