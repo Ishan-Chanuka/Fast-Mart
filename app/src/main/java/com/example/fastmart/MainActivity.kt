@@ -1,14 +1,26 @@
 package com.example.fastmart
 
 import android.os.Bundle
+import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
-import com.example.fastmart.databinding.ActivityMainBinding
+import androidx.fragment.app.FragmentManager
+
 
 class MainActivity : AppCompatActivity() {
+
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        @Suppress("UNUSED_VARIABLE")
-        val binding = DataBindingUtil.setContentView<ActivityMainBinding>(this, R.layout.activity_main)
+
+        setContentView(R.layout.activity_main)
+
+        val home =Fragment_home()
+        val fm:FragmentManager= supportFragmentManager
+        fm.beginTransaction().add(R.id.profile,home).commit()
+
+
+
     }
 }
