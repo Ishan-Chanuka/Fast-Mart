@@ -8,7 +8,7 @@
         android:orientation="vertical">
         <fragment
             android:id="@+id/loginFragment"
-            android:name="com.example.fastmart.LoginFragment"
+            android:name="com.example.fastmart.ProfileFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
     </LinearLayout>

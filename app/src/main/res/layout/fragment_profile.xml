@@ -2,8 +2,6 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     tools:context=".ProfileFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -67,7 +65,7 @@
             app:layout_constraintTop_toBottomOf="@+id/box_two_text" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/fname_edit_text"
             android:layout_width="331dp"
             android:layout_height="40dp"
             android:background="@drawable/box"
@@ -85,7 +83,7 @@
             app:layout_constraintVertical_bias="0.065" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/lname_edit_text"
             android:layout_width="331dp"
             android:layout_height="40dp"
             android:layout_marginBottom="464dp"
@@ -104,7 +102,7 @@
             app:layout_constraintVertical_bias="0.065" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/mob_number_edit_text"
             android:layout_width="331dp"
             android:layout_height="40dp"
             android:layout_marginBottom="408dp"
@@ -123,7 +121,7 @@
             app:layout_constraintVertical_bias="0.065" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/email_address_edit_text"
             android:layout_width="331dp"
             android:layout_height="40dp"
             android:layout_marginBottom="352dp"
@@ -142,7 +140,7 @@
             app:layout_constraintVertical_bias="0.065" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/pwd_edit_text"
             android:layout_width="331dp"
             android:layout_height="40dp"
             android:layout_marginBottom="296dp"
@@ -161,19 +159,22 @@
             app:layout_constraintVertical_bias="0.065" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/theme_edit_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Theme"
             android:textColor="#009F10"
             android:textSize="14sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="40dp"
-            tools:layout_editor_absoluteY="455dp"
+            app:layout_constraintBottom_toTopOf="@+id/dark_mode_edit_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pwd_edit_text"
             tools:ignore="MissingConstraints" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/dark_mode_edit_text"
             android:layout_width="331dp"
             android:layout_height="40dp"
             android:layout_marginBottom="204dp"
@@ -197,9 +198,11 @@
             android:layout_height="50dp"
             android:fontFamily="@font/poppins_bold"
             android:text="Sign out"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="81dp"
-            tools:layout_editor_absoluteY="578dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dark_mode_edit_text"
+            tools:ignore="MissingConstraints" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
