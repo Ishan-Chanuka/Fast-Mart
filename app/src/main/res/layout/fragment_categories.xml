@@ -59,7 +59,7 @@
             android:textSize="13sp" />
 
         <ImageView
-            android:id="@+id/imageView1"
+            android:id="@+id/product_view"
             android:layout_width="331dp"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
