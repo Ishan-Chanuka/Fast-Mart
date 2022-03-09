@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".QRFragment">
+
+
+        <com.budiyev.android.codescanner.CodeScannerView
+            android:id="@+id/scanner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:autoFocusButtonColor="@color/green_500"
+            app:autoFocusButtonVisible="true"
+            app:flashButtonColor="@color/green_500"
+            app:flashButtonVisible="true"
+            app:frameColor="@color/green_500"
+            app:frameCornersSize="50dp"
+            app:frameCornersRadius="20dp"
+            app:frameThickness="10dp"
+            app:frameAspectRatioHeight="1"
+            app:frameAspectRatioWidth="1"
+            app:frameSize="0.75"
+            app:maskColor="@color/white"
+
+            >
+
+        </com.budiyev.android.codescanner.CodeScannerView>
+
+
+</layout>

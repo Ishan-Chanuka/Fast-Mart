@@ -10,4 +10,5 @@
     <string name="name">Ishan Chanuka</string>
     <string name="fruits" />
     <string name="todo" />
+    <string name="scan_an_item">Scan an item</string>
 </resources>

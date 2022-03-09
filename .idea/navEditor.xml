@@ -8,6 +8,18 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
+                  <entry key="QRFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-415" />
+                            <option name="y" value="-295" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                   <entry key="cartFragment">
                     <value>
                       <LayoutPositions>
@@ -65,6 +77,11 @@
                         <option name="myPositions">
                           <map>
                             <entry key="action_fragment_home_to_cartFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_fragment_home_to_categoriesFragment">
                               <value>
                                 <LayoutPositions />
                               </value>

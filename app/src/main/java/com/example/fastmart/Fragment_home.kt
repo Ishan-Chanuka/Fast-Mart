@@ -41,6 +41,10 @@ class Fragment_home : Fragment() {
             Navigation.createNavigateOnClickListener(R.id.action_fragment_home_to_categoriesFragment)
         )
 
+        binding.qrBtn.setOnClickListener (
+            Navigation.createNavigateOnClickListener(R.id.action_fragment_home_to_QRFragment)
+        )
+
 
         return binding.root
     }

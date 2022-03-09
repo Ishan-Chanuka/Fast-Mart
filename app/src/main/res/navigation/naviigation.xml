@@ -43,6 +43,9 @@
         <action
             android:id="@+id/action_fragment_home_to_categoriesFragment"
             app:destination="@id/categoriesFragment" />
+        <action
+            android:id="@+id/action_fragment_home_to_QRFragment"
+            app:destination="@id/QRFragment" />
     </fragment>
     <fragment
         android:id="@+id/profileFragment"
@@ -59,4 +62,9 @@
         android:name="com.example.fastmart.categoriesFragment"
         android:label="fragment_categories"
         tools:layout="@layout/fragment_categories" />
+    <fragment
+        android:id="@+id/QRFragment"
+        android:name="com.example.fastmart.QRFragment"
+        android:label="fragment_q_r"
+        tools:layout="@layout/fragment_q_r" />
 </navigation>
