@@ -40,6 +40,9 @@
         <action
             android:id="@+id/action_fragment_home_to_cartFragment"
             app:destination="@id/cartFragment" />
+        <action
+            android:id="@+id/action_fragment_home_to_categoriesFragment"
+            app:destination="@id/categoriesFragment" />
     </fragment>
     <fragment
         android:id="@+id/profileFragment"
@@ -51,4 +54,9 @@
         android:name="com.example.fastmart.CartFragment"
         android:label="fragment_cart"
         tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="com.example.fastmart.categoriesFragment"
+        android:label="fragment_categories"
+        tools:layout="@layout/fragment_categories" />
 </navigation>
