@@ -96,7 +96,6 @@
             android:textSize="12sp"
             app:layout_constraintBottom_toTopOf="@+id/mob_number_edit_text"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/fname_edit_text" />
 
@@ -114,7 +113,6 @@
             android:textSize="12sp"
             app:layout_constraintBottom_toTopOf="@+id/email_address_edit_text"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/lname_edit_text" />
 
@@ -155,10 +153,9 @@
             android:id="@+id/dark_mode_edit_text"
             android:layout_width="331dp"
             android:layout_height="40dp"
-            android:background="@drawable/box"
             android:elevation="5dp"
             android:paddingStart="10dp"
-            android:paddingTop="@dimen/dark_mode_top_padding"
+            android:paddingTop="5dp"
             android:text="Dark Mode"
             android:textAlignment="textStart"
             android:textColor="#000000"
@@ -168,6 +165,16 @@
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/email_address_edit_text" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="60dp"
+            android:layout_height="10dp"
+            android:paddingLeft="5dp"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp"
+            tools:layout_editor_absoluteX="311dp"
+            tools:layout_editor_absoluteY="544dp" />
 
         <Button
             android:id="@+id/button_text"
@@ -180,6 +187,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dark_mode_edit_text"
             tools:ignore="MissingConstraints" />
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
