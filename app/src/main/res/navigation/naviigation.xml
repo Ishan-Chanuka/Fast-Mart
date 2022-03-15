@@ -13,11 +13,15 @@
         <action
             android:id="@+id/action_loginFragment2_to_fragmentSignup"
             app:destination="@id/fragmentSignup"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
             app:popUpTo="@id/loginFragment2"
             app:popUpToInclusive="true" />
         <action
             android:id="@+id/action_loginFragment2_to_fragment_home"
-            app:destination="@id/fragment_home" />
+            app:destination="@id/fragment_home"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
     </fragment>
     <fragment
         android:id="@+id/fragmentSignup"
@@ -27,6 +31,8 @@
         <action
             android:id="@+id/action_fragmentSignup_to_loginFragment2"
             app:destination="@id/loginFragment2"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
             app:popUpTo="@id/fragmentSignup"
             app:popUpToInclusive="true" />
     </fragment>
@@ -36,16 +42,24 @@
         android:label="Fragment_home" >
         <action
             android:id="@+id/action_fragment_home_to_profileFragment"
-            app:destination="@id/profileFragment" />
+            app:destination="@id/profileFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
         <action
             android:id="@+id/action_fragment_home_to_cartFragment"
-            app:destination="@id/cartFragment" />
+            app:destination="@id/cartFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
         <action
             android:id="@+id/action_fragment_home_to_categoriesFragment"
-            app:destination="@id/categoriesFragment" />
+            app:destination="@id/categoriesFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
         <action
             android:id="@+id/action_fragment_home_to_QRFragment"
-            app:destination="@id/QRFragment" />
+            app:destination="@id/QRFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
     </fragment>
     <fragment
         android:id="@+id/profileFragment"
@@ -64,7 +78,9 @@
         tools:layout="@layout/fragment_categories" >
         <action
             android:id="@+id/action_categoriesFragment_to_productFragment"
-            app:destination="@id/productFragment" />
+            app:destination="@id/productFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
     </fragment>
     <fragment
         android:id="@+id/productFragment"
@@ -76,7 +92,9 @@
             app:destination="@id/cartFragment" />
         <action
             android:id="@+id/action_productFragment_to_cartFragment2"
-            app:destination="@id/cartFragment" />
+            app:destination="@id/cartFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
     </fragment>
     <fragment
         android:id="@+id/QRFragment"
